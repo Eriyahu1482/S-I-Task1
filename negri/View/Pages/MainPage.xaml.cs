@@ -42,19 +42,19 @@ namespace negri.View.Pages
         }
         private void MNBTN7_Click(object sender, RoutedEventArgs e)
         {
-            CoreNavigate.MyCore?.Navigate(new Task2());
+            CoreNavigate.MyCore?.Navigate(new Task7());
         }
         private void MNBTN8_Click(object sender, RoutedEventArgs e)
         {
-            CoreNavigate.MyCore?.Navigate(new Task2());
+            CoreNavigate.MyCore?.Navigate(new Task8());
         }
         private void MNBTN9_Click(object sender, RoutedEventArgs e)
         {
-            CoreNavigate.MyCore?.Navigate(new Task2());
+            CoreNavigate.MyCore?.Navigate(new Task9());
         }
         private void MNBTN10_Click(object sender, RoutedEventArgs e)
         {
-            CoreNavigate.MyCore?.Navigate(new Task2());
+            CoreNavigate.MyCore?.Navigate(new Task10());
         }
         private void MNBTN11_Click(object sender, RoutedEventArgs e)
         {

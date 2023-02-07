@@ -17,27 +17,27 @@ using static negri.Core.Core;
 namespace negri.View.Pages.TaskPages
 {
     /// <summary>
-    /// Логика взаимодействия для Task6.xaml
+    /// Логика взаимодействия для Task8.xaml
     /// </summary>
-    public partial class Task6 : Page
+    public partial class Task8 : Page
     {
-        public Task6()
+        public Task8()
         {
             InitializeComponent();
         }
-        public void BTN6_Click(object sender, RoutedEventArgs e)
+        public void BTN8_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                double i = Convert.ToDouble(TBi.Text);
-                double y = Convert.ToDouble(TBy3.Text);
-                MessageBox.Show($"L = {(0.81 * Math.Cos(i) / Math.Log10(y) + 2 * Math.Pow(y, 3))}", "задание 1.6",
+                double t = Convert.ToDouble(TBt1.Text);
+                double y = Convert.ToDouble(TBy6.Text);
+                MessageBox.Show($"T = {(2.37 * Math.Sin(t + 1) )/ (Math.Sqrt(4 * Math.Pow(y, 2) - 0.1 * y + 5))}", "задание 1.8",
                         MessageBoxButton.OK,
                         MessageBoxImage.Information);
             }
             catch
             {
-                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.6",
+                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.8",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
             }
@@ -48,3 +48,4 @@ namespace negri.View.Pages.TaskPages
         }
     }
 }
+

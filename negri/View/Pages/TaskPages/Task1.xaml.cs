@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static negri.Core.Core;
 
 namespace negri.View.Pages.TaskPages
 {
@@ -40,6 +41,10 @@ namespace negri.View.Pages.TaskPages
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
             }
+        }
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            CoreNavigate.MyCore?.Navigate(new MainPage());
         }
     }
 }

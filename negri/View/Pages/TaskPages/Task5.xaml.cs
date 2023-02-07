@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static negri.Core.Core;
 
 namespace negri.View.Pages.TaskPages
 {
@@ -31,16 +32,20 @@ namespace negri.View.Pages.TaskPages
                 double a = Convert.ToDouble(TBa.Text);
                 double t = Convert.ToDouble(TBt.Text);
                 double y = Convert.ToDouble(TBy4.Text);
-                MessageBox.Show($"D = {(7.8 * Math.Pow(a,2) + 3.52 * Math.Pow(t,2)) /( (Math.Log10(a) + 2 * y) + Math.Exp(y))}", "задание 1.2",
+                MessageBox.Show($"D = {(7.8 * Math.Pow(a,2) + 3.52 * Math.Pow(t,2)) /( (Math.Log10(a) + 2 * y) + Math.Exp(y))}", "задание 1.5",
                         MessageBoxButton.OK,
                         MessageBoxImage.Information);
             }
             catch
             {
-                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.2",
+                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.5",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
             }
+        }
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            CoreNavigate.MyCore?.Navigate(new MainPage());
         }
     }
 }

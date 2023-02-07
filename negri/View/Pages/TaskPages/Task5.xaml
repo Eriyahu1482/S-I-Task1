@@ -49,6 +49,14 @@
                             <TextBlock Text="Решение" VerticalAlignment="Top" Height="22" ></TextBlock>
                         </StackPanel>
                     </Button>
+                    <Button HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    x:Name="BtnBack"
+                    Margin="12,-222,0,0"
+                    Click="BtnBack_Click"
+                    Background="Transparent"
+                     Foreground="#FFFFFF"
+                     Content="{materialDesign:PackIcon Kind=ArrowLeft}"/>
                 </Grid>
             </Border>
         </Grid>

@@ -14,11 +14,17 @@
     <None Remove="images\kamina3.jpg" />
     <None Remove="images\kamina4.jpg" />
     <None Remove="images\kamina5.jpg" />
+    <None Remove="images\kamina6.jpg" />
+    <None Remove="images\kamina7.jpg" />
     <None Remove="images\ladno.jpg" />
+    <None Remove="images\sdfsg7.jpg" />
+    <None Remove="images\sdgfhdfnv8.jpg" />
     <None Remove="images\Снимок экрана 2023-02-04 104055.png" />
     <None Remove="images\Снимок экрана 2023-02-07 192016.png" />
     <None Remove="images\Снимок экрана 2023-02-07 194655.png" />
     <None Remove="images\Снимок экрана 2023-02-07 200425.png" />
+    <None Remove="images\Снимок экрана 2023-02-07 202544.png" />
+    <None Remove="images\Снимок экрана 2023-02-07 205116.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,11 +39,17 @@
     <Resource Include="images\kamina3.jpg" />
     <Resource Include="images\kamina4.jpg" />
     <Resource Include="images\kamina5.jpg" />
+    <Resource Include="images\kamina6.jpg" />
+    <Resource Include="images\kamina7.jpg" />
     <Resource Include="images\ladno.jpg" />
+    <Resource Include="images\sdfsg7.jpg" />
+    <Resource Include="images\sdgfhdfnv8.jpg" />
     <Resource Include="images\Снимок экрана 2023-02-04 104055.png" />
     <Resource Include="images\Снимок экрана 2023-02-07 192016.png" />
     <Resource Include="images\Снимок экрана 2023-02-07 194655.png" />
     <Resource Include="images\Снимок экрана 2023-02-07 200425.png" />
+    <Resource Include="images\Снимок экрана 2023-02-07 202544.png" />
+    <Resource Include="images\Снимок экрана 2023-02-07 205116.png" />
   </ItemGroup>
 
 </Project>

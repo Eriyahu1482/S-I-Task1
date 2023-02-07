@@ -17,27 +17,27 @@ using static negri.Core.Core;
 namespace negri.View.Pages.TaskPages
 {
     /// <summary>
-    /// Логика взаимодействия для Task6.xaml
+    /// Логика взаимодействия для Task7.xaml
     /// </summary>
-    public partial class Task6 : Page
+    public partial class Task7 : Page
     {
-        public Task6()
+        public Task7()
         {
             InitializeComponent();
         }
-        public void BTN6_Click(object sender, RoutedEventArgs e)
+        public void BTN7_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                double i = Convert.ToDouble(TBi.Text);
-                double y = Convert.ToDouble(TBy3.Text);
-                MessageBox.Show($"L = {(0.81 * Math.Cos(i) / Math.Log10(y) + 2 * Math.Pow(y, 3))}", "задание 1.6",
+                double m = Convert.ToDouble(TBm.Text);
+                double y = Convert.ToDouble(TBy5.Text);
+                MessageBox.Show($"N = {(Math.Pow(m, 2) + 2.8 * m + 0.355) / (Math.Cos(2 * y) + 2 + 3.6)}", "задание 1.7",
                         MessageBoxButton.OK,
                         MessageBoxImage.Information);
             }
             catch
             {
-                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.6",
+                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.7",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
             }
