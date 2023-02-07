@@ -12,34 +12,39 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static negri.Core.Core;
 
 namespace negri.View.Pages.TaskPages
 {
     /// <summary>
-    /// Логика взаимодействия для Task1.xaml
+    /// Логика взаимодействия для Task6.xaml
     /// </summary>
-    public partial class Task1 : Page
+    public partial class Task6 : Page
     {
-        public Task1()
+        public Task6()
         {
             InitializeComponent();
         }
-        public void BTN1_Click(object sender, RoutedEventArgs e)
+        public void BTN6_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                double f = Convert.ToDouble(TBf.Text);
-                double y = Convert.ToDouble(TBy.Text);
-                MessageBox.Show($"G={(Math.Exp(2 * y) + Math.Sin(f)) / Math.Log10(3.8 * y + f)}", " задание 1.1",
+                double i = Convert.ToDouble(TBi.Text);
+                double y = Convert.ToDouble(TBy3.Text);
+                MessageBox.Show($"L = {(0.81 * Math.Cos(i) / Math.Log10(y) + 2 * Math.Pow(y, 3))}", "задание 1.2",
                         MessageBoxButton.OK,
                         MessageBoxImage.Information);
             }
             catch
             {
-                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.1",
+                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.2",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
             }
+        }
+        private void BtnBack_Click(object sender, RoutedEventArgs e)
+        {
+            CoreNavigate.MyCore?.Navigate(new MainPage());
         }
     }
 }

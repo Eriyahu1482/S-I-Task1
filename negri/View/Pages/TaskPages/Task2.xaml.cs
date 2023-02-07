@@ -16,27 +16,27 @@ using System.Windows.Shapes;
 namespace negri.View.Pages.TaskPages
 {
     /// <summary>
-    /// Логика взаимодействия для Task1.xaml
+    /// Логика взаимодействия для Task2.xaml
     /// </summary>
-    public partial class Task1 : Page
+    public partial class Task2 : Page
     {
-        public Task1()
+        public Task2()
         {
             InitializeComponent();
         }
-        public void BTN1_Click(object sender, RoutedEventArgs e)
+        public void BTN2_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                double f = Convert.ToDouble(TBf.Text);
-                double y = Convert.ToDouble(TBy.Text);
-                MessageBox.Show($"G={(Math.Exp(2 * y) + Math.Sin(f)) / Math.Log10(3.8 * y + f)}", " задание 1.1",
+                double d = Convert.ToDouble(TBd.Text);
+                double y = Convert.ToDouble(TBy1.Text);
+                MessageBox.Show($"F={Math.Log10(d)+(3.5*Math.Pow(d, 2)+1)/Math.Cos(2*y)}", "задание 1.2",
                         MessageBoxButton.OK,
                         MessageBoxImage.Information);
             }
             catch
             {
-                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.1",
+                MessageBox.Show("Ошибка วกดสเา้กดน้เ่", "задание 1.2",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
             }
