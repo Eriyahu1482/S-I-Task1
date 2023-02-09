@@ -13,7 +13,15 @@
         <Grid>
             <Image Source="/images/ladno.jpg"
                    Stretch="UniformToFill" Margin="-386,-14,-386,-2"/>
-
+            <Button
+                Height="80"
+                Width="250" Margin="175,0,175,620"
+                x:Name="pashalka"
+                Click="pashalka_Click"
+                Background="Transparent"
+                     Foreground="Transparent"
+                BorderBrush="Transparent">
+            </Button>
             <Button 
                Height="65"
                 Width="65"

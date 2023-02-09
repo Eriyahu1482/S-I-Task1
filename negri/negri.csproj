@@ -8,17 +8,62 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\fjjwatf10.jpg" />
     <None Remove="images\kamina.jpg" />
     <None Remove="images\kamina1.jpg" />
+    <None Remove="images\kamina10.jpg" />
+    <None Remove="images\kamina11.jpg" />
+    <None Remove="images\kamina12.jpg" />
+    <None Remove="images\kamina13.jpg" />
+    <None Remove="images\kamina14.jpg" />
+    <None Remove="images\kamina15.jpg" />
+    <None Remove="images\kamina16.jpg" />
+    <None Remove="images\kamina17.jpg" />
+    <None Remove="images\kamina18.jpg" />
+    <None Remove="images\kamina19.jpg" />
     <None Remove="images\kamina2.jpg" />
+    <None Remove="images\kamina20.jpg" />
+    <None Remove="images\kamina21.jpg" />
+    <None Remove="images\kamina22.jpg" />
+    <None Remove="images\kamina23.jpg" />
+    <None Remove="images\kamina24.jpg" />
+    <None Remove="images\kamina25.jpg" />
+    <None Remove="images\kamina26.jpg" />
+    <None Remove="images\kamina27.jpg" />
+    <None Remove="images\kamina28.jpg" />
+    <None Remove="images\kamina29.jpg" />
     <None Remove="images\kamina3.jpg" />
+    <None Remove="images\kamina30.jpg" />
     <None Remove="images\kamina4.jpg" />
     <None Remove="images\kamina5.jpg" />
     <None Remove="images\kamina6.jpg" />
     <None Remove="images\kamina7.jpg" />
+    <None Remove="images\kamina9.jpg" />
     <None Remove="images\ladno.jpg" />
+    <None Remove="images\pashalka.jpg" />
+    <None Remove="images\posujh9.jpg" />
     <None Remove="images\sdfsg7.jpg" />
     <None Remove="images\sdgfhdfnv8.jpg" />
+    <None Remove="images\Task_11.jpg" />
+    <None Remove="images\Task_12.jpg" />
+    <None Remove="images\Task_13.jpg" />
+    <None Remove="images\Task_14.jpg" />
+    <None Remove="images\Task_15.jpg" />
+    <None Remove="images\Task_16.jpg" />
+    <None Remove="images\Task_17.jpg" />
+    <None Remove="images\Task_18.jpg" />
+    <None Remove="images\Task_19.jpg" />
+    <None Remove="images\Task_20.jpg" />
+    <None Remove="images\Task_21.jpg" />
+    <None Remove="images\Task_22.jpg" />
+    <None Remove="images\Task_23.jpg" />
+    <None Remove="images\Task_24.jpg" />
+    <None Remove="images\Task_25.jpg" />
+    <None Remove="images\Task_26.jpg" />
+    <None Remove="images\Task_27.jpg" />
+    <None Remove="images\Task_28.jpg" />
+    <None Remove="images\Task_29.jpg" />
+    <None Remove="images\Task_30.jpg" />
     <None Remove="images\Снимок экрана 2023-02-04 104055.png" />
     <None Remove="images\Снимок экрана 2023-02-07 192016.png" />
     <None Remove="images\Снимок экрана 2023-02-07 194655.png" />
@@ -33,23 +78,192 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\kamina.jpg" />
-    <Resource Include="images\kamina1.jpg" />
-    <Resource Include="images\kamina2.jpg" />
-    <Resource Include="images\kamina3.jpg" />
-    <Resource Include="images\kamina4.jpg" />
-    <Resource Include="images\kamina5.jpg" />
-    <Resource Include="images\kamina6.jpg" />
-    <Resource Include="images\kamina7.jpg" />
-    <Resource Include="images\ladno.jpg" />
-    <Resource Include="images\sdfsg7.jpg" />
-    <Resource Include="images\sdgfhdfnv8.jpg" />
-    <Resource Include="images\Снимок экрана 2023-02-04 104055.png" />
-    <Resource Include="images\Снимок экрана 2023-02-07 192016.png" />
-    <Resource Include="images\Снимок экрана 2023-02-07 194655.png" />
-    <Resource Include="images\Снимок экрана 2023-02-07 200425.png" />
-    <Resource Include="images\Снимок экрана 2023-02-07 202544.png" />
-    <Resource Include="images\Снимок экрана 2023-02-07 205116.png" />
+    <Resource Include="images\fjjwatf10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina13.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina14.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina15.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina16.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina17.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina18.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina19.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina20.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina21.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina22.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina23.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina24.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina25.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina26.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina27.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina28.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina29.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina30.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kamina9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ladno.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\pashalka.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\posujh9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\sdfsg7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\sdgfhdfnv8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_13.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_14.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_15.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_16.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_17.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_18.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_19.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_20.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_21.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_22.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_23.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_24.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_25.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_26.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_27.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_28.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_29.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Task_30.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Снимок экрана 2023-02-04 104055.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Снимок экрана 2023-02-07 192016.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Снимок экрана 2023-02-07 194655.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Снимок экрана 2023-02-07 200425.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Снимок экрана 2023-02-07 202544.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\Снимок экрана 2023-02-07 205116.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
